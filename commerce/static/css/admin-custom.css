@@ -1,0 +1,13 @@
+.w-panel--icon {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.w-listing__item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.w-header {
+    color: #ff5733;  /* Changing header color */
+}

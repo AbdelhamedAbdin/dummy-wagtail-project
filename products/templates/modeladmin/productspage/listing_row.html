@@ -1,0 +1,15 @@
+<tr class="listing__item">
+    <td>{{ page.title }}</td>
+    <td>{{ page.product_name }}</td>
+    <td>
+        {% if page.live %}
+            <span class="status live">Live</span>
+        {% else %}
+            <span class="status draft">Draft</span>
+        {% endif %}
+    </td>
+    <td>
+        <!-- Add custom buttons, links, or icons here -->
+        <a href="{% url 'wagtailadmin_pages:edit' page.id %}" class="button">Edit</a>
+    </td>
+</tr>
